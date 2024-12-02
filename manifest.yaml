@@ -1,0 +1,12 @@
+
+applications:
+  - name: my-app
+    memory: 256M
+    disk-quota: 256M
+    instances: 1
+    buildpacks:
+      - nodejs_buildpack
+    health-check-type: process
+    stack: cflinuxfs3
+
+  
